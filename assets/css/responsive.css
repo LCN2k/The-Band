@@ -1,0 +1,85 @@
+/* PC */
+@media (min-width: 64em){
+
+}
+/* Tablet & mobile */
+@media (max-width: 63.9375em){
+    .btn{
+        padding: 0.9375em 1em;
+    }
+    #nav .subnav a{
+        padding: 0.3125em 0.75em;
+    }
+    .contact-form .form-control{
+        padding: 10.3125em;
+        font-size: 1em;
+    }
+    .contact-info{
+        line-height: 2;
+    }
+    .contact-submit-btn{
+        font-size: 1.0625em;
+    }
+    .social-list{
+        font-size: 3em;
+    }
+    #footer .social-list a{
+        margin: 0 0.5em;
+    }
+    #footer .copyright{
+        padding: 0.75em 0;
+        display: inline-block;
+    }
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+    
+}
+/* Mobile */
+@media (max-width: 46.1875em){
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+    .s-mt-8{
+        margin-top: 0.5em !important;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #nav{
+        display: block;
+    }
+    #nav li a{
+        padding: 0.0625em 1.5em;
+    }
+    #nav > li{
+        display:block;
+    }
+    #nav > li:first-child{/*truy nhập đến thành phần con đầu tiên của thẻ li*/
+        display: inline-block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 0.3125em 2.5625em;
+    }
+    #content .member-img{
+        width: 60%;
+    }
+    .contact-form{
+        margin-top: 2em;
+    }
+    
+
+}
